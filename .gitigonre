@@ -1,0 +1,6 @@
+node_modules/
+.java/
+backups/
+world/
+*.log
+.env
