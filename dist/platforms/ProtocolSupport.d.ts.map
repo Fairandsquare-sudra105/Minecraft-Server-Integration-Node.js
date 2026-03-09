@@ -1,0 +1,1 @@
+{"version":3,"file":"ProtocolSupport.d.ts","sourceRoot":"","sources":["../../src/platforms/ProtocolSupport.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,UAAU,CAAC;AAM3C,qBAAa,sBAAsB;IAC/B,OAAO,CAAC,MAAM,CAAwB;IAEzB,KAAK,CAAC,MAAM,EAAE,eAAe,GAAG,OAAO,CAAC,IAAI,CAAC;YAW5C,uBAAuB;CA+BxC"}

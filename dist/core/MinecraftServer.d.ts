@@ -1,0 +1,93 @@
+import { EventEmitter } from 'events';
+import { MinecraftConfig, ServerInfo, Player } from '../types';
+export interface MinecraftServerOptions extends Partial<MinecraftConfig> {
+    enableViaVersion?: boolean;
+    enableViaBackwards?: boolean;
+    enableViaRewind?: boolean;
+    enableSkinRestorer?: boolean;
+    enableProtocolSupport?: boolean;
+    customJavaArgs?: string[];
+    javaVersion?: '17' | '21' | 'auto';
+    usePortableJava?: boolean;
+    memoryMonitor?: {
+        enabled: boolean;
+        threshold: number;
+        interval: number;
+        action: 'restart' | 'warn' | 'stop';
+    };
+    autoInstallJava?: boolean;
+    networkOptimization?: {
+        tcpFastOpen: boolean;
+        bungeeMode: boolean;
+        proxyProtocol: boolean;
+    };
+    owners?: string[];
+    ownerCommands?: {
+        prefix: string;
+        enabled: boolean;
+    };
+    silentMode?: boolean;
+    statsInterval?: number;
+}
+export declare class MinecraftServer extends EventEmitter {
+    private config;
+    private options;
+    private logger;
+    private engine;
+    private geyser;
+    private viaVersion;
+    private skinRestorer;
+    private process;
+    private serverInfo;
+    private players;
+    private backupCron;
+    private startTime;
+    private memoryMonitorInterval;
+    private statsInterval;
+    private memoryUsageHistory;
+    private worldSize;
+    private playerCount;
+    private javaCommand;
+    private javaInfo;
+    private owners;
+    private ownerCommandPrefix;
+    private lastCpuTotal;
+    private lastCpuTime;
+    private cpuUsage;
+    private cgroupMemory;
+    private cgroupCpu;
+    constructor(userConfig?: MinecraftServerOptions);
+    private detectCgroupLimits;
+    private createEngine;
+    private buildJavaArgs;
+    private buildEnvironment;
+    private processOwnerCommand;
+    private handleGamemodeCommand;
+    private handleTeleportCommand;
+    private handleGiveCommand;
+    private handleTimeCommand;
+    private handleWeatherCommand;
+    private handleKillCommand;
+    private handleBanCommand;
+    private handleKickCommand;
+    private handleOpCommand;
+    private handleDeopCommand;
+    private sendOwnerHelp;
+    private updateStats;
+    start(): Promise<ServerInfo>;
+    private startMemoryMonitor;
+    private gracefulRestart;
+    stop(): Promise<void>;
+    sendCommand(command: string): void;
+    getInfo(): Promise<ServerInfo>;
+    getPlayers(): Player[];
+    backup(type?: 'full' | 'world' | 'plugins'): Promise<string>;
+    private monitorResources;
+    private setupBackups;
+    private convertIntervalToCron;
+    private handlePlayerJoin;
+    private handlePlayerLeave;
+    private parseMemory;
+    private calculateWorldSize;
+}
+//# sourceMappingURL=MinecraftServer.d.ts.map
